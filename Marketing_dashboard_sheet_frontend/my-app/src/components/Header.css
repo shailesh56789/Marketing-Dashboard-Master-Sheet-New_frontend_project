@@ -1,0 +1,56 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #8a6b12, #a88d2b);
+  padding: 18px 30px;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* LEFT */
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo {
+  height: 55px;
+}
+
+.brand-text h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.brand-text span {
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+/* CENTER */
+.header-center {
+  text-align: center;
+  max-width: 520px;
+}
+
+.header-center h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.header-center p {
+  margin-top: 6px;
+  font-size: 13px;
+  opacity: 0.95;
+}
+
+/* RIGHT */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
